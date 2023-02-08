@@ -10,10 +10,7 @@ public:
     explicit Data_Base(QObject *parent = nullptr);
 
     Q_INVOKABLE QString login_id(QString user_id,QString user_password);
-
     Q_INVOKABLE bool login_succesfull();
-
-    // Q_INVOKABLE QString search(QString p_name);
 
     bool connect_database();
     bool create_table();
