@@ -76,7 +76,10 @@ Window {
             text: qsTr("Login")
             anchors.horizontalCenter: parent.horizontalCenter
             onClicked: {
-                if(username === txt_user_name.text && password === txt_password.text) status = "hello p"
+                if(username === txt_user_name.text && password === txt_password.text)
+                {
+                    status = "hello p"
+                }
                 status_policy.open()
             }
         }

@@ -26,9 +26,14 @@ public:
             qWarning() << "MainWindow::OnSearchClicked - ERROR: " << query.lastError().text();
 
         if(query.first())
+        {
+            qInfo() <<"person found";
             return QString(query.value(0).toString());
+        }
         else
+        {
             return QString("person not found");
+        }
     }
 };
 

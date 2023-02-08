@@ -39,7 +39,7 @@ Window {
             x: 215
             y: 120
             text: "<html><body><b>Console Client</b></font>?.11.00_220823</body></html>"
-            anchors.top: image.bottom
+            anchors.top: logo.bottom
             font.pointSize: 13
             anchors.horizontalCenter: parent.horizontalCenter
         }
@@ -137,6 +137,10 @@ Window {
             width: 100
             height: 100
             text: qsTr("Login")
+
+            onClicked: {
+                text:p_obj.login();
+            }
 
         }
 

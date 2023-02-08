@@ -9,7 +9,6 @@ import org.mydb 1.0
 Window {
     id: window
     title: Qt.application.name
-
     width: 320
     height: 180
     visible: true
@@ -53,7 +52,7 @@ Window {
                 enabled: false
                 onClicked: {
                     console.log("button click event")
-                    mOutputText.text = mydb.search(mInputText.text)
+                    mydb.search(mInputText.text)
                 }
             }
         }
