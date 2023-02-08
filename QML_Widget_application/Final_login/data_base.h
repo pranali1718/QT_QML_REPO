@@ -22,15 +22,5 @@ public:
 signals:
 
 };
-/*
-QString login_id(QString p_name);
-QString Login_Passowrd(QString p_password);
-void Login_succesfull();
 
-// Q_INVOKABLE QString search(QString p_name);
-
-void connect_database();
-void create_table();
-void details_save();
-*/
 #endif // DATA_BASE_H
