@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MyShape.qml</file>
+        <file>MyNew.qml</file>
+    </qresource>
+</RCC>

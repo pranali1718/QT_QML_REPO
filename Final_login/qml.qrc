@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Login.qml</file>
+        <file>StackViewPage.qml</file>
+        <file>ID_pass.qml</file>
+    </qresource>
+    <qresource prefix="/image">
+        <file>logo.png</file>
+    </qresource>
+</RCC>

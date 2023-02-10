@@ -10,8 +10,6 @@ Window {
     property alias label1: label1
     title: qsTr("Hello World")
 
-
-
     property string username: "pranali"
     property string password: "pranali123"
     property string status: "failed"
