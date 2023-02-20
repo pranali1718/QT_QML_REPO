@@ -199,9 +199,9 @@ Window {
 
                         if((mydb.login_id(user_id.text,user_password.text)=== '1'))
                         {
-//                            var component = Qt.createComponent("Login.qml")
-//                            var child_Window    = component.createObject(window)
-//                            child_Window.show()
+                            //                            var component = Qt.createComponent("Login.qml")
+                            //                            var child_Window    = component.createObject(window)
+                            //                            child_Window.show()
                             stackView.push(page2)
                             console.log(user_id.text)
                             console.log(user_password.text)
@@ -210,7 +210,7 @@ Window {
                         {
                             status_policy.open()
                         }
-s                    }
+                        s                    }
                     Popup{
                         id:status_policy
                         closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutside
@@ -235,13 +235,15 @@ s                    }
             visible: false
             Text {
                 id: name
-                x: 266
-                y: 184
-                width: 139
+                width: 13
                 height: 30
                 visible: true
                 color: "white"
                 text: qsTr("WELCOME WISENET")
+                anchors.verticalCenter: parent.verticalCenter
+                anchors.horizontalCenter: parent.horizontalCenter
+                font.bold: true
+                font.pointSize: 30
             }
         }
     }
