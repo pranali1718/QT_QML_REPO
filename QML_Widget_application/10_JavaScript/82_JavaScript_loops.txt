@@ -1,0 +1,23 @@
+//for loop - good for ranges
+
+for(var i=0;i<3;i++)
+{
+    console.log("i "+i)
+}
+console.log("_________________________")
+
+//do loop -  always run at least one time
+var x=0
+do{
+    console.log(x)
+    x++
+}while(x<3)
+console.log("_________________________")
+
+//while() - always check first
+var y=0
+while(y<6)
+{
+    console.log(y)
+    y++
+}

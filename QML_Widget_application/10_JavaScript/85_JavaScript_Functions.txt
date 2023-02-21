@@ -1,0 +1,18 @@
+//JavaScript Function
+
+//outter scope
+function fun()
+{
+    //inner scope
+    var x="hellow"
+    return x
+}
+
+function mul(x,y)
+{
+    return x*y
+}
+
+console.log(mul(2,3))
+var x=fun()
+console.log(x)                  //function calling

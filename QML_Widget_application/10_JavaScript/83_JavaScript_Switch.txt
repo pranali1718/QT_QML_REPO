@@ -1,0 +1,20 @@
+//Swtich in JavaScript
+
+var x = 0
+var y = "hello"
+
+switch(x)
+{
+    case 1 : 
+        console.log("Zero")
+        break
+    case 2 : 
+        console.log("One")
+        break
+    case "hello" : 
+        console.log("Two")
+        break
+    default :
+        console.log("Nothing to Display")
+        break
+}
