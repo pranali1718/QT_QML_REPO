@@ -26,8 +26,7 @@ Window {
         MouseArea {
             id: area
             anchors.fill: parent
-           // onClicked: Code.performClick(root,box)
+            // onClicked: Code.performClick(root,box)
         }
     }
-
 }

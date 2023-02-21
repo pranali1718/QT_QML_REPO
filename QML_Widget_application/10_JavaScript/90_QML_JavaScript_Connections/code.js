@@ -13,14 +13,12 @@ function swapColor(obj) {
     return obj.pressed ? "orange" : "gray"
 }
 
-
 function startup(croot, cbox) {
     print("Starting!!")
 
     Root = croot
     Box = cbox
 }
-
 
 function clicked(mouse) {
     print("Clicked!!")
