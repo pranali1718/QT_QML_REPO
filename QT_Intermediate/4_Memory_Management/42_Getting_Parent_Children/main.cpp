@@ -1,5 +1,11 @@
 #include <QCoreApplication>
 #include <QDebug>
+
+
+void test()
+{
+    QScopedPointer
+}
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
