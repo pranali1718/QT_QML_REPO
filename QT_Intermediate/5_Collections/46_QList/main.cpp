@@ -1,6 +1,30 @@
 /* using list in QT
- *
- *
+
+ * Declare QList ->
+            QList<QString>list_name;
+            QList<int>list_name;
+
+ * For add the  element ->
+            list_name.append(element);
+            list_name << "element" <<"element";
+
+ * Return the size of the list ->
+            list_name.size();
+            list_name.length();
+            list_name.count();
+
+ * Replace the element in list ->
+            list_name.replace(element,element);
+
+ * Remove the elements in list ->
+            list_name.remove(element);
+
+ * Remove the specific element for all in list ->
+            list_name.removeall(element);
+
+ * To clear the list ->
+            list_name.clear();
+
 */
 
 #include <QCoreApplication>
@@ -19,6 +43,7 @@ int main(int argc, char *argv[])
     QList<QString>list_string;
     list_string <<"One" <<"Two" <<"Three" <<"Four";
 
+    //print the list
     foreach(auto &x,list_string)
     {
         qInfo()<<x;

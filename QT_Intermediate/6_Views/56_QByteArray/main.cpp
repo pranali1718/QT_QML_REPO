@@ -1,9 +1,8 @@
-/*
- *QByteArray
- *
+/*-------------QByteArray--------------
+
  * 1.we use this for give read only access to QByteArray.
  * 2.
- *
+
  */
 
 #include <QCoreApplication>
@@ -12,7 +11,17 @@
 
 void display(QByteArrayView &view)
 {
-    qInfo() <<view;
+    qInfo() <<"String is : "<<view;
+    qInfo() <<"at 2nd position is : "<<view.at(2);
+    qInfo() <<"Size is : "<<view.size();
+    qInfo() <<"Sliced : "<<view.sliced(3,8);
+    qInfo() <<"COntians : "<<view.contains("Pranali");
+    qInfo() <<"index of Pranali : "<<view.indexOf("Pranali");
+
+    for(auto c : view)
+    {
+        qInfo() << c;
+    }
 }
 
 
