@@ -1,7 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>ColorModel.qml</file>
-        <file>Color_Delegate.qml</file>
+        <file>ImagePage.qml</file>
     </qresource>
 </RCC>
