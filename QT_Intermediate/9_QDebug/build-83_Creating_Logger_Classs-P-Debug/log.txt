@@ -1,0 +1,8 @@
+Thu Mar 23 11:20:21 2023 - Info: test../83_Creating_Logger_Classs/main.cpp line: 12
+Thu Mar 23 11:20:21 2023 - Debug: Test(0x7ffef360d9b0) Constructed../83_Creating_Logger_Classs/test.cpp line: 6
+Thu Mar 23 11:20:21 2023 - Debug: Test(0x7ffef360d9b0) Constructed../83_Creating_Logger_Classs/test.cpp line: 11
+Thu Mar 23 11:20:21 2023 - Info: Finished../83_Creating_Logger_Classs/main.cpp line: 21
+Thu Mar 23 11:21:24 2023 - Info: test../83_Creating_Logger_Classs/main.cpp line: 12
+Thu Mar 23 11:21:24 2023 - Debug: Test(0x7ffffabc8110) Constructed../83_Creating_Logger_Classs/test.cpp line: 6
+Thu Mar 23 11:21:24 2023 - Debug: Test(0x7ffffabc8110) Constructed../83_Creating_Logger_Classs/test.cpp line: 11
+Thu Mar 23 11:21:24 2023 - Info: Finished../83_Creating_Logger_Classs/main.cpp line: 21
